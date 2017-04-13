@@ -1,0 +1,1436 @@
+{
+	"action": {
+		"actions": "Aktionen",
+		"browse": "Auswählen...",
+		"cancel": "Abbrechen",
+		"clear": "Eingabe löschen",
+		"close": "Schließen",
+		"delete": "Löschen",
+		"discard": "Änderungen verwerfen",
+		"edit": "Bearbeiten",
+		"export": "Exportieren",
+		"help": "Hilfe",
+		"import": "Importieren",
+		"next": "Nächster (Ctrl + Down)",
+		"no": "Nein",
+		"ok": "OK",
+		"open": "Öffnen",
+		"persistFilter": "Diesen Filter speichern",
+		"previous": "Vorheriger (Ctrl + Up)",
+		"restore": "Wiederherstellen",
+		"save": "Speichern",
+		"saveOnly": "Nur speichern",
+		"settings": "Einstellungen",
+		"verify": "Verifizieren",
+		"verifyAndSave": "Verifizieren und speichern",
+		"wizard": {
+			"back": "< Zurück",
+			"finish": "Abschließen",
+			"next": "Nächster >"
+		},
+		"yes": "Ja"
+	},
+	"administration": {
+		"behaviour": {
+			"fieldConfig": "Feldkonfiguration",
+			"globalTranslations": "Globale Übersetzungen",
+			"parameters": "Parameter",
+			"searchConfig": "Such-Konfiguration",
+			"title": "Verhalten"
+		},
+		"title": "Verwaltung",
+		"usersAndGroups": {
+			"groups": "Gruppen",
+			"permisions": "Rollen & Rechte",
+			"title": "Benutzer und Gruppen",
+			"users": "Benutzer"
+		}
+	},
+	"authorization": {
+		"exists": {
+			"question": "Der gewählte Rollenname existiert bereits. Möchten Sie die bestehende Rolle öffnen?",
+			"rolename": "Diese Rolle existiert bereits",
+			"title": "Bestehende Rolle"
+		},
+		"granted": "Zugewiesene Rechte:",
+		"grid": {
+			"createdBy": "Erstellt durch",
+			"createdDate": "Erstellungsdatum",
+			"lastModifiedBy": "Zuletzt geändert durch",
+			"lastModifiedDate": "Zuletzt geändert am"
+		},
+		"inheritTooltip": "Konfiguration vererben",
+		"parametrized.title": "Rolle - {{name}}",
+		"registration": {
+			"title": "Eine neue Rolle erstellen",
+			"tooltip": "Eine neue Rolle hinzufügen"
+		},
+		"rights": {
+			"administration": "Administration",
+			"authorizationBaseData": "Rollen & Rechte",
+			"baseData": "Stammdaten",
+			"bookingBaseData": "Buchungen",
+			"businessBaseData": "Geschäftsdaten",
+			"customerBaseData": "Kunden",
+			"customerVerification": "Kunden Verifizierung",
+			"cvlList": "Auswahllisten",
+			"fieldConfiguration": "Pflichtfeld-Konfiguration",
+			"financialBaseData": "Finanzen",
+			"generalBaseData": "General",
+			"globalTranslation": "Übersetzungen Verwalten",
+			"miscList": "Weiteres",
+			"searchConfiguration": "Such-Konfiguration",
+			"stationBaseData": "Stationen",
+			"userBaseData": "Mitarbeiter",
+			"vehicleBaseData": "Fahrzeuge",
+			"viewProfiles": "View Profiles"
+		},
+		"rightsColumn": {
+			"add": "Hinzufügen",
+			"delete": "Löschen",
+			"edit": "Bearbeiten",
+			"execute": "Ausführen",
+			"function": "Funktion",
+			"view": "Ansicht"
+		},
+		"rolename": "Rollenname",
+		"section": {
+			"users": "Benutzer"
+		},
+		"users": {
+			"add": "< Ausgewählte Benutzer hinzufügen",
+			"assigned": "Zugeordnete Benutzer",
+			"available": "Nicht zugeordnete Benutzer",
+			"hint": "Benutzer suchen...",
+			"remove": "Ausgewählte Benutzer entfernen >",
+			"removeAll": "Alle entfernen >>"
+		}
+	},
+	"baseData": {
+		"financialGroup": {
+			"title": "Finanzen Gruppe"
+		},
+		"generalGroup": {
+			"title": "General Group"
+		},
+		"stationGroup": {
+			"geozone": "Geo-zone"
+		},
+		"vehicleGroup": {
+			"title": "Fahrzeug",
+			"driverUserGroup": "Fahrernutzergruppen",
+			"equipment": "Ausstattung"
+		},
+		"title": "Stammdaten"
+	},
+	"bookings": {
+		"checkInTimestamp": "Ende",
+		"checkOutTimestamp": "Begin",
+		"ciObjPosition": "Rückgabestellplatz",
+		"ciStation": "Rückgabestation",
+		"classificationDescription": "Fahrzeugtyp",
+		"coObjPosition": "Abholstellplatz",
+		"coStation": "Abholstation",
+		"contract": {
+			"date": "Vertragsdatum",
+			"number": "Vertrag #",
+			"state": "Vertragsstatus",
+			"type": "Nutzungsart"
+		},
+		"drivenKm": "Driven KM",
+		"history": "Buchungsverlauf",
+		"now": "Buche jetzt",
+		"parametrized.title": "Buchung #{{reservationNumber}}",
+		"planKm": "Geplante KM",
+		"registrationNumber": "Fahrzeug #",
+		"reservationNumber": "Reservierung #",
+		"revenue": "Einnahmen",
+		"title": "Buchungen",
+		"total.value": "Buchungsgesamtwert"
+	},
+	"businessArea": {
+		"accountingNo1": "Mandantennr. 1 Rechnungswesen",
+		"accountingNo2": "Mandantennr. 2 Rechnungswesen",
+		"assetsNo1": "Mandantennr. 1 Anlagevermögen",
+		"assetsNo2": "Mandantennr. 2 Anlagevermögen",
+		"bankAccountNumber": "Kontonummer",
+		"bankCodeNumber": "Bankleitzahl",
+		"bankCustomerAddressBlock": "Bankkunde",
+		"bankName": "Bankname",
+		"businessAreaCustomer": "Geschäftspartner",
+		"footerTextBlock1": "Textblock 1",
+		"footerTextBlock2": "Textblock 2",
+		"footerTextBlock3": "Textblock 3",
+		"headerDescription1": "Drucklabel 1",
+		"headerDescription10": "Steuernummer",
+		"headerDescription2": "Drucklabel 2",
+		"headerDescription3": "Drucklabel 3",
+		"headerDescription4": "Drucklabel 4",
+		"headerDescription5": "Drucklabel 5",
+		"headerDescription6": "Drucklabel 6",
+		"headerDescription7": "Drucklabel 7",
+		"headerDescription8": "Drucklabel 8",
+		"headerDescription9": "Drucklabel 9",
+		"licencee": "Lizenzgeber",
+		"parametrized.title": "Geschäftsbereich - {{name}}",
+		"registration": {
+			"title": "Geschäftsbereich anlegen",
+			"tooltip": "Einen neuen Geschäftsbereich anlegen"
+		},
+		"section": {
+			"print.data": "Druckinhalt"
+		},
+		"subtitle": {
+			"bankAccount": "Bankverbindung",
+			"financialAccounting": "Rechnungswesen",
+			"formalPrintFooter": "Druckinhalte Fußzeile",
+			"formalPrintHeader": "Druckinhalte Kopfzeile"
+		},
+		"vesrParticipantBankId": "VESR Kundeninformationsnnummer",
+		"vesrParticipantNo": "VESR Ordernummer - Teil der VESR Teilnehmernummer"
+	},
+	"changesHistory": {
+		"action": "Änderungshistorie",
+		"columns": {
+			"fieldName": "Feldname",
+			"modifiedDate": "Änderungsdatum",
+			"modifier": "geändert durch",
+			"newValue": "Neuer Wert",
+			"oldValue": "Alter Wert"
+		}
+	},
+	"classification": {
+		"title": "Klassifizierung",
+		"parametrized.title": "Klassifizierung - {{name}}",
+		"maintenance": "Wartung",
+		"validContractType": "Zulassige Vertragsart",
+		"portal": "Portal",
+		"classificationType": "Art",
+		"ledgerProcCode": "Erlöskonto verschlüsselt",
+		"minimumDriverAge": "Mindestalter Fahrer",
+		"dispoBuffer": "Dispopuffer",
+		"tankCalculationRule": "Tankabrechnungsregel",
+		"businessAreaAsset": "Anlagevermögen Geschäftsbereich",
+		"parent": "Übergeordnetes Element",
+		"additionalInformation": "Zusatzinformationen",
+		"kwFrom": "Kilowatt ab",
+		"kwTill": "Kilowatt bis",
+		"extPriceListCarType": "Externe Fahrzeuggruppe",
+		"useForFuelPriceList": "Verfügbar in Treibstoffpreisliste",
+		"lengthServiceCo": "Länge vor Check Out",
+		"lengthServiceCi": "Länge vor Check In",
+		"fuelData": "Tankdaten",
+		"fuelType": "Treibstoffart",
+		"tankLitre": "Tankkapazität",
+		"chargingPlug": "Ladesteckertyp",
+		"chargingTime": "Ladezeit",
+		"batteryCapacity": "Batteriekapazität",
+		"cruisingRange": "Reichweite",
+		"consumption": "Verbrauch kombiniert",
+		"consumptionCityIn": "Verbrauch innerorts",
+		"consumptionCityOut": "Verbauch außerorts",
+		"co2Emission": "CO2 Emissionen",
+		"damageImage": "Schadenspiktogramm",
+		"maintenanceIntervalType": "Art",
+		"maintenanceIntervalInterval": "Intervall",
+		"maintenanceIntervalIntervalUnit": "Intervall Einheit",
+		"maintenanceIntervalBuffer": "Puffer (Tage / km)",
+		"isWWWVisible": "Sichtbar in WWW",
+		"wwwShowChargingStatus": "Batteriestand anzeigen",
+		"longDescription": "Beschreibung lang",
+		"longDescription2": "Beschreibung 2 lang",
+		"longDescription3": "Beschreibung 3 lang",
+		"wwwDescription2ShowMinRentMinutes": "Mindestmietdauer bis WWW Beschreibung 2 angezeigt wird (min)",
+		"wwwDetailTextModuleId": "Portal Detailinformationen",
+		"wwwInfoTextModuleId": "Portal Informations Popup",
+		"drivingDistanceGroup": "Fahrdistanzgruppe",
+
+		"registration": {
+			"title": "Klassifizierung erstellen",
+			"tooltip": "Neue Klassifizierung erstellen"
+		},
+		"contractTypes": {
+			"title": "Gültige Vertragsart",
+			"assigned": "Mietvertragsarten",
+			"available": "Verfügbare Mietvertragsarten",
+			"hint": "Beginnen Sie mit der Eingabe von Vertragsart",
+			"add": "< Vertragsart hinzufügen",
+			"remove": "Entfernen Sie Mietvertragstyp >",
+			"removeAll": "Alles entfernen >>"
+		},
+		"portalPictures": {
+			"title": "Portal Bilder",
+			"image": "Bild",
+			"webType": "Webtyp",
+			"type": "Typ",
+			"size": "Dateigröße: {{fileSize}} KB"
+		}
+	},
+	"classificationType": {
+		"typeId": "Type ID",
+		"wwwVisible": "Im WWW sichtbar",
+		"vehicleTypeOption": "Option Fahrzeugtyp",
+		"vehicleOption": "Option Fahrzeug",
+		"rentalContractOption": "Option Mietvertrag",
+		"parentClassificationTypeId": "Type Subklassifizierung",
+		"proceedAccountRule": "Regel Erlöskonto",
+		"costUnitRule": "Regel Kostenträger",
+		"tollable": "Mautpflichtig",
+		"damageComissionRank": "Rangordnung Ermittlung Preis aus Schadensmatrix",
+		"costComissionRank": "Rangordnung Ermittlung Preis aus Kostentemplate",
+		"dispositionRank": "Rangordnung Ermittlung Dispopuffer",
+		"provisionMatrixRank": "Rangordnung Ermittlung",
+		"parametrized.title": "Klassifizierungstyp - {{name}}",
+		"general": "Allgemeines",
+		"options": "Weitere Optionen",
+		"priorities": "Prioritäten 1 bis 10",
+		"registration": {
+			"title": "Klassifizierungstyp erstellen",
+			"tooltip": "Neue Klassifizierungstyp erstellen"
+		},
+		"title": "Klassifizierungstyp"
+	},
+	"creditCardTerminal": {
+		"terminalId": "Terminal ID",
+		"description": "Anzeigename",
+		"serviceType": "Kreditkartenprovider",
+		"ipAddress": "IP Addresse",
+		"port": "Port",
+		"cashupId": "Cashup ID",
+		"storeId": "Händler ID",
+		"validateCvc": "Überprüfe Kartenverifizierungscode",
+		"creditCardTerminalStations": "Stationen",
+		"creditCardTerminalParameters": "Parameter",
+		"parameter": "Parameter Name",
+		"value": "Wert",
+		"contractType": "Mietvertragsart",
+		"parametrized.title": "Kreditkartenterminal - {{name}}",
+		"registration": {
+			"title": "Kreditkartenterminal erstellen",
+			"tooltip": "Neues Kreditkartenterminal erstellen"
+		},
+		"title": "Kreditkartenterminal"
+	},
+	"geozone": {
+		"parametrized.title": "Geo-zone - {{name}}",
+		"registration": {
+			"title": "Geo-zone erstellen",
+			"tooltip": "Neue Geo-zone erstellen"
+		},
+		"title": "Geo-zone",
+		"kml":"KML",
+		"map": "Karte",
+		"geozoneOnMap": "Visualisierte KML"
+	},
+	"costUnit": {
+		"parametrized.title": "Kostenträger - {{name}}",
+		"registration": {
+			"title": "Kostenträger erstellen",
+			"tooltip": "Neue Kostenträger erstellen"
+		},
+		"title": "Kostenträger"
+	},
+	"driverUserGroup": {
+		"title": "Fahrernutzergruppen",
+		"parametrized.title": "Fahrernutzergruppen - {{name}}",
+		"registration": {
+			"title": "Fahrernutzergruppen erstellen",
+			"tooltip": "Neue Fahrernutzergruppe erstellen"
+		},
+		"section": {
+			"vehicleDataConfiguration": "Konfiguration Fahrzeug",
+			"businessCardConfiguration": "Konfiguration Kundenkarten"
+		},
+		"vehicleGroup":"Fahrzeuggruppe",
+		"businessCard": "Kundenkarten",
+		"validTillIsMandatory": "Gültigkeitsangabe Pflicht",
+		"validTillDefault": "Standartwert Gültigkeit in Tagen"
+	},
+	"equipment": {
+		"parametrized.title": "Ausstattung - {{name}}",
+		"registration": {
+			"title": "Ausstattung erstellen",
+			"tooltip": "Neue Ausstattung erstellen"
+		},
+		"title": "Ausstattung",
+		"details": "Zusätzliche Beschreibung"
+	},
+	"businessTypeRule": {
+		"title": "Geschäftsart",
+		"parametrized.title": "Geschäftsart",
+		
+		"registration": {
+			"title": "Geschäftsart erstellen",
+			"tooltip": "Neue Geschäftsart erstellen"
+		},
+		"section": {
+			"targetGroup": "Zielgruppe",
+			"dimensions": "Dimensionen"
+		},
+		"subtitle": {
+			"financialAccounting": "Rechnungswesen"
+		},
+		"type": "Art",
+		"bookingKey":"Buchungsschlüssel",
+		"sortNumber":"Sortierung",
+
+		"accountProceeds": "Ertragskonto verschlüsselt",
+		"accountProceedsTitle": "Ertragskonto",
+		"accountProceedsNo": "Nummer Ertragskonto",
+		"accountProceedsDesc": "Name Ertragskonto",
+		
+		"costUnitNo": "Nummer Kostenträger",
+		"costUnitName": "Name Kostenträger"
+	},
+	"costCenter": {
+		"parametrized.title": "Kostenstelle - {{name}}",
+		"registration": {
+			"title": "Kostenstelle erstellen",
+			"tooltip": "Neue Kostenstelle erstellen"
+		},
+		"subtitle": {
+			"extendeddata": "Erweiterte Daten",
+			"infos": "Infos"
+		}
+	},
+	"customers": {
+		"bankAccounts": {
+			"bic": "BIC/Swift",
+			"iban": "IBAN",
+			"isDefault": "Default",
+			"mandateNumber": "Mandatsnummer",
+			"signatureDate": "Datum Unterschrift"
+		},
+		"birth.date": "Geburtsdatum",
+		"birth.place": "Geburtsort",
+		"communication": {
+			"email": "E-Mail",
+			"label": "Kommunikation durch",
+			"sms": "SMS"
+		},
+		"creditCards": {
+			"expirationDate": "Gültig bis",
+			"isDefault": "Default",
+			"number": "Kreditkartennummer"
+		},
+		"driverName": "Name im Führerschein",
+		"email": "E-Mail",
+		"exists": {
+			"changeCustomer": "Kunde wechseln",
+			"changeOrSwitch": "E-Mail-Adresse ändern oder zu bestehendem Kunden wechseln?",
+			"changeUsername": "E-Mail-Adresse ändern",
+			"exists": "Die eingegebene E-Mail-Adresse ist bereits in der Datenbank hinterlegt",
+			"title": "Kunde existiert bereits"
+		},
+		"idcard": {
+			"expiryDate": "Ablaufdatum",
+			"nationality": "Nationalität",
+			"number": "Personalausweis-Nummer",
+			"type": "Art des Dokuments",
+			"upload": "Scan hochladen",
+			"uploadFailure": "Problem beim Speichern von Scan"
+		},
+		"issue.authority": "Ausgabebehörde",
+		"issue.country": "Ausgabeland",
+		"issue.date": "Ausgabetag",
+		"licence": {
+			"category": "Führerschein Kategorie",
+			"categoryPlaceholder": "Kategorien wählen...",
+			"number": "Führerscheinnummer",
+			"upload": "Führerschein-Scan hochladen",
+			"uploadFailure": "Problem beim Speichern von Führerschein-Scan"
+		},
+		"matchcode": "Matchcode",
+		"mobile": "Mobilnummer",
+		"mobileno": "Mobilnummer",
+		"number": "Kunden #",
+		"parametrized.title": "Kunde - {{name}}",
+		"phone": "Telefonnummer",
+		"prefix": "Anrede",
+		"registration": {
+			"title": "Kundenregistrierung",
+			"tooltip": "Registrierung Neukunde"
+		},
+		"rentalProcess": {
+			"selection": "Mietpozess",
+			"withRFID": "Mietprozess mit RFID",
+			"withoutRFID": "Mietprozess ohne RFID"
+		},
+		"section": {
+			"documents": "Ausweis & Führerschein",
+			"payment": "Zahlung",
+			"status": "Status"
+		},
+		"status": {
+			"driver": {
+				"dataInserted": "Daten eingefügt",
+				"driverVerified": "Daten verifiziert",
+				"name": "Ausweis & Führerschein",
+				"verifyPage": "Zur Verifizierung wechseln"
+			},
+			"mainData": {
+				"accountConfirmed": "E-Mail bestätigt",
+				"accountConfirmedMessage": "E-Mail wurde erfolgreich bestätigt",
+				"accountCreated": "Account erstellt",
+				"confirmEmail": "E-Mail manuell bestätigen",
+				"confirmationLink": "Bestätigungs-Link gesendet",
+				"sendConfirmationLink": "Bestätigungs-Link erneut versenden",
+				"sendConfirmationMessage": "Bestätigungs-Link wurde versendet"
+			},
+			"notverified": "Nicht verifiziert",
+			"paymentAndCard": {
+				"name": "Zahlungsmittel & Karten",
+				"payment": "Zahlung gültig",
+				"rfid": "RFID zugewiesen",
+				"rfidOptions": "Zu Mietprozess wechseln"
+			},
+			"security": {
+				"name": "Sicherheit",
+				"password": "Kennwort definiert",
+				"pin": "PIN vergeben"
+			},
+			"title": "Status für {{firstName}} {{lastName}}",
+			"verified": "Verifiziert"
+		},
+		"subtitle": {
+			"contact": "Kontakt",
+			"driverLicence": "Führerschein",
+			"driverLicenceScans": "Führerschein Scans",
+			"identityCard": "Personalausweis",
+			"identityCardScans": "Personalausweis Scans",
+			"paymentInformation": "Zahlungsinformation",
+			"personal": "Persönliche Informationen",
+			"private": "Privatadresse",
+			"rentalProcess": "Mietprozess"
+		},
+		"title": "Kunden",
+		"usernameChanged": {
+			"content": "Möchten Sie den Benutzernamen ändern?",
+			"title": "Benutzername wurde geändert"
+		},
+		"verification": {
+			"doYouVerify": "Bestätigen Sie, dass die Daten des Ausweises und des Führerscheins korrekt sind?",
+			"header": "Ausweis und Führerschein Verifizierung",
+			"headerValidationErrors": "Für die Verifizierung müssen die Daten vollständig erfasst sein. Bitte prüfen Sie folgende Informationen:",
+			"idCardNumber": "Es wurde keine Ausweisnummer angegeben.",
+			"idCardType": "Es wurde kein Dokumententyp ausgewählt.",
+			"licenceCategories": "Es wurde keine Führerscheinkategorie gewählt.",
+			"licenceIssueDate": "Bitte prüfen Sie das Ausgabedatum.",
+			"licenceIssuer": "Ausstellungsbehörde des Führerscheins wurde nicht angegeben.",
+			"licenceIssuingCountry": "Das Ausstellungsland des Führerscheins wurde nicht angegeben.",
+			"licenceNumber": "Führerscheinnummer wurde nicht angegeben.",
+			"licenceValidUntil": "Gültigkeitsdatum Führerschein wurde nicht angegeben.",
+			"success": "Verifizierung erfolgreich",
+			"verificationTitle": "Verifizierung"
+		}
+	},
+	"cvl": {
+		"accountType": "Account Type",
+		"addressType": "Address Type",
+		"balanceType": "Balance Type",
+		"aBDimensionType":"Dimensionentyp",
+		"mProgramType":"Business Karten Art",
+		"abDimensionAttribute": " Dimension Attribute",
+		"aBImageType": "Image Type",
+		"aBImageContentType": "Image Content Type",
+		"aBImageUseType": "Image Use Type",
+		"cardServiceType": "Card Service Type",
+		"cardType": "Card Type",
+		"classificationFlag": "Classification Flag",
+		"classificationTypeRule": "Classification Type Rule",
+		"command": {
+			"add": "Neuer Eintrag",
+			"cancel": "Änderungen verwerfen",
+			"save": "Änderungen speichern"
+		},
+		"billMode":"Rechnungsart",
+		"businessType":"Geschäftsart",
+		"customerGroup":"Kundengruppe",
+		"reminderTargetGroupType":"Zielgruppentyp",
+		"paymentTypeRule":"Regel Zahlungsbedingungen",
+		"communicationType": "Communication Type",
+		"contractState": "Contract State",
+		"contractType": "Contract Type",
+		"country": "Land",
+		"creditCardTerminalParameterType": "Credit Card Terminal Parameter Type",
+		"identityCardType": "Identity Card Type",
+		"language": "Language",
+		"lockReason": "Lock Reason",
+		"numberCycleBaseType": "NumberCycle Basis Typ",
+		"prefix": "Prefix",
+		"propertyGroup": "Property Group",
+		"propertyType": "Property Type",
+		"printGroup": "Print Group",
+		"reminderGroup": "Reminder Group",
+		"reminderLock": "Reminder Lock",
+		"reminderPrintField": "Reminder Print Field",
+		"rentContractCancelType": "Rent Contract Cancel Type",
+		"rentLock": "Rent Lock",
+		"rentalStation": "Rental Station",
+		"state": "State",
+		"stationDeliveryCollect": "Delivery / Collection Station",
+		"tab.title": "Auswahltabelle {{name}}",
+		"taxType": "Tax Type",
+		"textGroup": "Textbaustein Gruppe",
+		"telematicProcessClass": "Prozessklasse",
+		"tMBoxProfileType": "Telematikboxenprofilart",
+		"timezone": "Timezone",
+		"chargingPlug": "Charging Plug",
+		"fuelType": "Fuel Type",
+		"maintenanceIntervalUnit": "Maintenance Interval Unit",
+		"maintenanceType": "Maintenance Type",
+		"minDriverAge": "Minimum Driver Age",
+		"tankCalculationRule": "Tank Calculation Rule",
+		"driverLicence": "Driver Licence",
+		"salesType": "Sales Type",
+		"vehicleState": "Vehicle State",
+		"dataIntMonitorDirection": "Data Int Monitor Direction",
+		"dataIntMonitorEventType": "Data Int Monitor Event Type",
+		"dataIntMonitorMode": "Data Int Monitor Mode",
+		"dataIntMonitorSubType": "Data Int Monitor Sub Type",
+		"dataIntMonitorType": "Data Int Monitor Type",
+		"rentObjLocationType": "Vehicle Location Type",
+		"tMBoxOutputType": "TMBox Output Type",
+		"tMBoxRelationState": "TMBox Relation State"
+	},
+	"dashboard": {
+		"title": "Dashboard"
+	},
+	"dispositions": {
+		"title": "Disposition"
+	},
+	"dunningLevel": {
+		"businessAreaId": "Geschäftsbereich",
+		"dunningLevel": "Mahnstufe",
+		"parametrized.title": "Mahnstufe",
+		"registration": {
+			"title": "Mahnstufe erstellen",
+			"tooltip": "Neues Mahnstufe erstellen"
+		},
+		"section": {
+			"main.data": "Primäre Daten"
+		},
+		"subtitle": {
+			"overdueLevel": "Mahnstufe"
+		},
+		"printFieldName": "Druckfeldname",
+		"remindingGroup": "Mahngruppe",
+		"remindingStep": "Mahnstufe",
+		"reminderCharge": "Mahngebühr",
+		"textModuleId": "Textbaustein",
+		"title": "Mahnstufe"
+	},
+	"entityInformation": {
+		"aBImage": "Bild",
+		"equipmentSearch": "Ausstattungssuche",
+		"aBDimension":"Dimensionen",
+		"aBDimensionAttribute":"Dimensionen Attribut",
+		"auditable": "Änderungsüberwachung",
+		"authenticatedUser": "Authentifizierter Nutzer",
+		"bank": "Bank",
+		"reminderTargetGroup":"Zielgruppen",
+		"businessTypeRule":"Geschäftsarten Regel",
+		"businessTypeRuleSearch":"Geschäftsarten Regel Search",
+		"businessArea": "Geschäftsbereich",
+		"businessAreaSearch": "Geschäftsbereichsuche",
+		"classificationType": "Klassifizierungstypen",
+		"company": "Company",
+		"contractState": "Vertragsstatus",
+		"costCenter": "Kostenstelle",
+		"costCenterSearch": "Kostenstellesuche",
+		"costUnit": "Kosteneinheit",
+		"creditCard": "Kreditkarte",
+		"creditCardTerminal": "Kreditkartenterminal",
+		"creditCardTerminalParameter": "Kreditkartenterminal Parameter",
+		"creditCardTerminalStation": "Kreditkartenterminal Stationen",
+		"customer": "Kunde",
+		"customerAddress": "Kundenadresse",
+		"customerBankAccount": "Kunden Bankverbindung",
+		"customerBusinessArea": "Kunden Geschäftsbereich",
+		"customerCard": "Kundenkarte",
+		"customerMainAddress": "Kunden Hauptadresse",
+		"customerRelation": "Kundenbeziehung",
+		"customerSearch": "Kundensuche",
+		"dataGroup": "Datengruppe",
+		"driver": "Fahrer",
+		"driverVerification": "Fahrerüberprüfung",
+		"driverUserGroup": "Fahrernutzergruppen",
+		"driverUserGroupVehicle": "Driver User Group Vehicle",
+		"driverUserGroupVehicleGroup": "Driver User Group Vehicle Group",
+		"driverUserGroupBusinessCard": "Driver User Group Business Card",
+		"dunningLevel": "Mahnstufe",
+		"dynDataRule": "Dynamische Datenregel",
+		"dynDataValue": "Dynamischer Datenwert",
+		"employee": "Mitarbeiter",
+		"employeeSearch": "Mitarbeiter-Suche",
+		"entityInformation": "Entity Information",
+		"entityTrace": "Entity Trace",
+		"entityTraceEntry": "Entity Trace Entry",
+		"feature": "Fahrzeug-Eigenschaft",
+		"featureValue": "Fahrzeug-Eigenschaft-Wert",
+		"federalState": "Bundesland",
+		"fieldCondition": "Feldbedingung",
+		"fieldConfig": "Feldkonfiguration",
+		"fieldContainer": "Feldcontainer",
+		"fieldDescriptor": "Feldeigenschaften",
+		"fieldInformation": "Feldinformationen",
+		"geozone": "Geo-Zone",
+		"gridSettings": "Rastereinstellungen",
+		"language": "Sprache",
+		"ledger": "Konto",
+		"ledgerSearch": "Konto-Suche",
+		"licencee": "Lizenznehmer",
+		"licencer": "Lizenzgeber",
+		"multilang": "Multilanguage",
+		"multilangPos": "Multilanguage-Eintrag",
+		"numberCycle": "Nummernkreis",
+		"objPosition": "Objektposition",
+		"ownorga": "Eigene Organisation",
+		"paymentCondition": "Zahlungsbedingung",
+		"paymentConditionSearch": "Zahlungsbedingung-Suche",
+		"paymentType": "Zahlungsmittelart",
+		"personAccount": "Personenkonto",
+		"printHeaderFooter": "Drucken Kopf- / Fußzeile",
+		"rentContract": "Mietvertrag",
+		"rentContractSearch": "Mietvertragsuche",
+		"rentObjTransact": "Vermietung Objekt Transaktion",
+		"rentObject": "Vermietung Objekt",
+		"rentalStation": "Vermietung Station",
+		"right": "Recht",
+		"role": "Rolle",
+		"roleRightAssociation": "Zugewiesenes Recht",
+		"service": "Service",
+		"state": "Zustand",
+		"station": "Station",
+		"stationAddress": "Station Address",
+		"stationDeliveryCollect": "Anlieferung / Ansammlung Station",
+		"stationSearch": "Stationssuche",
+		"stationType": "Stationstyp",
+		"systemvalue": "Systemparameter",
+		"systemvaluePos": "Systemparameterwert",
+		"tax": "Steuer",
+		"taxSearch": "Steuer-Suche",
+		"textGroup": "Textbaustein Gruppe",
+		"textModule": "Textbaustein",
+		"textModuleDetail": "Textbaustein Eintrag",
+		"tMBoxProfile": "Telematikboxenprofil",
+		"tMBoxProfileDataImportType": "Datenmonitortypen",
+		"timezone": "Zeitzone",
+		"translation": "Übersetzung",
+		"vFieldConfigurationItem": "Ansicht Feldkonfiguration",
+		"viewProfile": "Ansicht",
+		"chargingPlug": "Charging plug",
+		"classificationObjectType": "Classification Object Type",
+		"classification": "Classification",
+		"drivingTimeType": "Driving Time Type",
+		"fuelType": "Fuel Type",
+		"maintenanceIntervalUnit": "Maintenance Interval Unit",
+		"maintenanceType": "Maintenance Type",
+		"minDriverAge": "Min Driver Age",
+		"printGroup": "Print Group",
+		"stationValidEmployeeRule": "Station Valid Employee Rule",
+		"tankCalculationRule": " Tank Calculation Rule",
+		"drivingDistance": "Driving Distance",
+		"drivingDistanceGroup": "Driving Distance Group",
+		"drivingTime": "Driving Time",
+		"equipment": "Ausstattung",
+		"maintenanceInterval": "Maintenance Interval",
+		"stationValidContractType": "Station Valid Contract Type",
+		"variation": "Variation",
+		"variationValue": "Variation Value",
+		"rentObjectType": "Rent Object Type",
+		"tMBox": "Telematic Box",
+		"tMBoxRentObj": "Telematic Box - Vehicle Assignment",
+		"vehicleLocation": "Vehicle Location",
+		"rentObjectInformation": "Vehicle Summary",
+		"telematikDisplayDevice": "Telematik Display Device"
+	},
+	"feature": {
+		"title": "Eigenschaft",
+		"parametrized.title": "Eigenschaft - {{name}}",
+		"registration": {
+			"title": "Eigenschaft erstellen",
+			"tooltip": "Neues Eigenschaft erstellen"
+		},
+		"section": {
+			"propertyList": "Eigenschaften"
+		},
+		"subtitle": {
+			"feature": "Eigenschaft",
+			"picture": "Bild",
+			"invoicingRules": "Rechnungsregeln"
+		},
+		"shortDescription": "Kurzbezeichnung",
+		"serviceId": "Zugehörige Leistung",
+		"propertyGroup": "Eigenschaftengruppe",
+		"useForDispo": "Dispositionsfähig",
+		"wwwVisible": "WWW sichtbar",
+		"order": "Sortierung",
+		"propertyType": "Liste",
+		"printGroup": "Druckgruppe",
+		"imageId": "Bild",
+		"extPriceListCode": "Externer Code für Rate Engine",
+		"extLicencerCode": "Spaltenname Export",
+		"extPriceListValue": "Wert deutsch"
+	},
+	"fieldConfiguration": {
+		"columns": {
+			"dataObject": "Datenobjekt",
+			"fieldName": "Feldname",
+			"mandatoryCondition": "Pflichtfeld Verhalten"
+		},
+		"delete": {
+			"confirm": "Diese Feldkonfiguration löschen?",
+			"error": "Fehler beim Löschen der Feld-Konfiguration",
+			"success": "Die Konfiguration wurde erfolgreich gelöscht"
+		},
+		"dialog": {
+			"applyDefault": "Standardwert verwenden",
+			"field": {
+				"mandatory": "Die Eingabe in diesem Feld ist pflicht",
+				"mandatoryIf": "Die Eingabe in diesem Feld ist pflicht, wenn",
+				"notMandatory": "Die Eingabe in diesem Feld ist optional"
+			},
+			"notMandatoryConfigurable": "Dieses Feld ist laut Systemdefinition erforderlichich und kann daher nicht konfiguriert werden",
+			"placeholder": "Wählen Sie ein Feld...",
+			"section": {
+				"mandatory": "Pflichtfeld"
+			},
+			"title": "Feldkonfigurationsdialog",
+			"titleWithField": "Feldkonfigurationsdialog - {{fieldName}}"
+		},
+		"open": "Feld-Konfigurationsdialog öffnen",
+		"save": {
+			"error": "Fehler beim Speichern der Konfiguration",
+			"success": "Konfiguration gespeichert"
+		},
+		"toggle": "Feld-Konfiguration bearbeiten"
+	},
+	"fieldMetamodelEditor": {
+		"addChild": "Add child",
+		"addSibling": "Add sibling",
+		"dialogs": {
+			"dataGroup": "Data Group configuration",
+			"deleteDataGroup": "Delete {{name}} data group. Are you sure?",
+			"deleteFieldContainer": "Delete {{name}} field container. Are you sure?",
+			"deleteFieldDescriptor": "Delete {{name}} field descriptor. Are you sure?",
+			"fieldContainer": "Field Container configuration",
+			"fieldDescriptor": "Field Descriptor configuration"
+		},
+		"optionsHint": "Options text must be a valid JSON object",
+		"properties": {
+			"activeProfiles": "Active profiles",
+			"binding": "Binding",
+			"composed": "Composed",
+			"controlType": "Control Type",
+			"dataType": "Data Type",
+			"dataUrl": "Data Url",
+			"dbid": "DB ID",
+			"i18nKey": "I18N Key",
+			"itemType": "Item Type",
+			"label": "Label",
+			"name": "Name",
+			"options": "Options",
+			"order": "Order",
+			"ownerName": "Owner Name",
+			"parentId": "Parent ID",
+			"rootClass": "Root Class",
+			"showTitle": "Show Title",
+			"spread": "Spread",
+			"title": "Title"
+		},
+		"title": "Field metamodel editor"
+	},
+	"general": {
+		"additionalData": "Zusatzdaten",
+		"additionalInformation": "Zusätzliche Informationen",
+		"address": {
+			"additionalInfo": "Addresszusatz",
+			"city": "Stadt",
+			"country": "Land",
+			"email": "Email Adresse",
+			"phone": "Telefonnummer",
+			"street": "Straße",
+			"zipcode": "Postleitzahl"
+		},
+		"manufacturer": "Hersteller",
+		"manufacturerType": "Herstellertyp",
+		"vehicleType": "Fahrzeugart",
+		"vehicleGroup": "Fahrzeuggruppe",
+		"vehicleGroup2": "Fahrzeuggruppe 2",
+		"contractType":"Mietvertragsart",
+		"vehicleGroup3": "Fahrzeuggruppe 3",
+		"accidentReplacementGroup": "1. Unfallersatzgruppe",
+		"customerGroup":"Kundengruppe",
+		"termsOfPayment":"Zahlungsbedingnungen",
+		"rulesTermsOfPayment":"Regel Zahlungsbedingungen",	
+		"invoiceType":"Rechnungsart",
+		"businessArea": "Geschäftsbereich",
+		"code": "Code",
+		"confirmationTitle": "Bestätigung",
+		"costCenter": "Kostenstelle",
+		"date": "Date",
+		"defaultValue": "Standardwert",
+		"default": "vorgegeben",
+		"description": "Beschreibung",
+		"description2": "Beschreibung 2",
+		"extCode1": "Externer Schlüssel 1",
+		"extCode2": "Externer Schlüssel 2",
+		"extCode3": "Externer Schlüssel 3",
+		"extCode4": "Externer Schlüssel 4",
+		"extCode5": "Externer Schlüssel 5",
+		"feature": "Eigenschaft",
+		"gender": "Geschlecht",
+		"vehicle": "Fahrzeug",
+		"grid": {
+			"deleteDialog": {
+				"confirm": "Sind Sie sicher, dass Sie diesen Datensatz löschen wollen?",
+				"error": "Fehler beim Löschen des Datensatzes",
+				"success": "Datensatz wurde erfolgreich gelöscht"
+			}
+		},
+		"id": "ID",
+		"key": "Key",
+		"ledger": "Sachkonten",
+		"mainData": "Primäre Daten",
+		"mandatory": "* Pflichtfeld",
+		"name": {
+			"first": "Vorname",
+			"full": "Name",
+			"last": "Nachname",
+			"name": "Bezeichnung",
+			"short": "Bezeichnung",
+			"user": "Benutzername / Anmelden"
+		},
+		"note": "Notiz",
+		"notes": "Notizen",
+		"number": "Nummer",
+		"picker": {
+			"select": "Auswählen",
+			"title": "Bitte wählen Sie eine Zeile aus der Liste aus"
+		},
+		"placeholder": {
+			"multiselect": " Bitte auswählen..."
+		},
+		"registerCancelQuestion": "Die Daten werden nicht gespeichert, die Seite wird geschlossen. Sind Sie sicher?",
+		"registerResetQuestion": "Es werden alle Eingabefelder in diesem Register gelöscht. Sind Sie sicher?",
+		"save": {
+			"error": "Fehler beim Speichern von {{name}}",
+			"success": "{{name}} gespeichert"
+		},
+		"delete": {
+			"confirm": "Sind Sie sicher, dass Sie den ausgewählten {{name}} Eintrag löschen möchten?",
+			"error": "Fehler beim Löschen von {{name}}",
+			"success": "{{name}} wurde erfolgreich gelöscht"
+		},
+		"search": "Suche",
+		"sort": "Sortierung",
+		"state": "Status",
+		"station": "Station",
+		"validFrom": "Gültig ab",
+		"validTill": "Gültig bis",
+		"latitude": "Breitengrad",
+		"longitude": "Längengrad",
+		"upload": {
+			"title": "Bild hinzufügen",
+			"hint": "Bild hier ablegen oder hier klicken, um nach einer Datei zu suchen"
+		}
+	},
+	"grid": {
+		"display": "Total: {2}",
+		"refresh": "Daten aktualisieren",
+		"settings": {
+			"menu_reset": "Grid-Einstellungen zurücksetzen",
+			"menu_save": "Grid-Einstellungen speichern",
+			"reset_error": "Grid-Einstellungen konnten nicht zurückgesetzt werden",
+			"reset_success": "Grid-Einstellungen wurden zurückgesetzt",
+			"save_error": "Grid-Einstellungen konnten nicht gespeichert werden",
+			"save_success": "Grid-Einstellungen gespeichert"
+		}
+	},
+	"home": {
+		"helper1": "Drücken Sie die ",
+		"helper2": " Home-Taste, um zu beginnen",
+		"tooltip": "Home"
+	},
+	"imports": {
+		"dialog": {
+			"addOrUpdateAction": "Neue Datensätze hinzufügen und bestehende aktualisieren",
+			"confirm": "Möchten Sie den Import durchführen?",
+			"import": "Importieren",
+			"importFile": "Wählen Sie die Importdatei",
+			"replaceAction": "Alle Daten durch Import ersetzen",
+			"title": "Importieren"
+		},
+		"messages": {
+			"error": "Fehler bei importierung",
+			"success": "Importdatei wurde erfolgreich importiert"
+		},
+		"title": "Importieren"
+	},
+	"invoice": {
+		"history": "Rechnungshistorie"
+	},
+	"ledger": {
+		"accountType": "Sachkonten typ",
+		"accounting": "Buchhaltung",
+		"balanceType": "Ballance typ",
+		"costCenterAccountingRecord": "Kostenstelle sachkonten record erstellen",
+		"costCenterDescription": "Kostenstelle Bezeichnung",
+		"ledgerNo": "Sachkontennummer",
+		"parametrized.title": "Sachkonten - {{name}}",
+		"registration": {
+			"title": "Sachkont erstellen",
+			"tooltip": "Neues Sachkonto erstellen"
+		},
+		"salesTax": "Mehrwertsteuer",
+		"salesTaxDescription": "Mehrwertsteuer Bezeichnung",
+		"subtitle": {
+			"extendeddata": "Erweiterte Daten"
+		},
+		"summarize": "Zusammenfassen"
+	},
+	"login": {
+		"loginButton": "Anmelden",
+		"loginHeader": "Login",
+		"logoutButton": "Abmelden",
+		"password": "Passwort"
+	},
+	"paymentCondition": {
+		"descriptionForPrint": "Text zum Druken",
+		"discountDays": "Anzahl Tage für Skonto",
+		"discountDaysNet": "Netto-Tage",
+		"discountPercent": "Rabatt Prozent",
+		"parametrized.title": "Zahlungsbedingungen - {{name}}",
+		"paymentType": "Zahlungsmittel",
+		"registration": {
+			"title": "Zahlungsbedingungen erstellen",
+			"tooltip": "Neue Zahlungsbedingungen erstellen"
+		},
+		"subtitle": {
+			"main": "Zahlungsbedingungen"
+		}
+	},
+	"profile": {
+		"avatar": {
+			"avatarDropzone": "Hier das neue Avatar ablegen...",
+			"image": "Avatar",
+			"uploadFailure": "Es trat ein Problem beim speichern des Avatars auf"
+		},
+		"changePassword": {
+			"abortChange": "Abbrechen",
+			"changePassword": "Passwort ändern",
+			"currentPassword": "Aktuelles Passwort",
+			"newPassword": "Neues Passwort",
+			"newPasswordConfirmation": "Bestätigung neues Passwort",
+			"success": "Passwort erfolgreich geändert",
+			"title": "Passwortänderung"
+		},
+		"languages": "Sprachen",
+		"menu": "Profil",
+		"save.success": "Das Benutzerprofil wurde gespeichert",
+		"title": "Dein Benutzerprofil"
+	},
+	"report": {
+		"page": "Seite"
+	},
+	"reports": {
+		"dialog": {
+			"generate": "Export erstellen",
+			"maxRows": "Max Anzahl von Zeilen",
+			"outputType": "Ausgabetyp",
+			"title": "Reportkonfiguration"
+		},
+		"title": "Berichte"
+	},
+	"save": {
+		"confirmation.dialog": {
+			"multiplePages": {
+				"help": "Drücken Sie auf 'Speichern', um alle Seiten zu speichern, 'Änderungen verwerfen' um alle Seiten zu schließen und die Änderungen zu verwerfen oder 'Abbrechen' um die aktuelle Operation abzubrechen",
+				"message": "Auf den folgenden Seiten sind nicht gespeicherte Änderungen"
+			},
+			"singlePage": {
+				"help": "Drücken Sie auf 'Speichern' um die Seite zu speichern, 'Änderungen verwerfen' um die Seite zu schließen und die Änderungen zu verwerfen oder 'Abbrechen' umd das Schließen der Seite abzubrechen",
+				"message": "'{{pageTitle}}' enthält nicht gespeicherte Änderungen"
+			},
+			"title": "Bestätigung zum Speichern"
+		}
+	},
+	"searchConfiguration": {
+		"columns": {
+			"auditable": "Auditing",
+			"boost": "Gewichtung",
+			"className": "Klassenname",
+			"fieldName": "Feldname",
+			"indexable": "Indexierbar",
+			"lucenceAnalyzer": "Lucence Analyzer",
+			"traceable": "Änderungs-Überwachung",
+			"type": "Typ"
+		}
+	},
+	"stations": {
+		"creationDate": "Eröffnungsdatum",
+		"defaultLanguage": "Standardsprache",
+		"fax": "Faxnummer",
+		"federalState": "Bundesland",
+		"geozone": "Geozone",
+		"inputTax": "Eingangsteuer",
+		"ledgerAccount": "Sachkonto",
+		"licenceActive": "Linzenz aktiv",
+		"licencee": "Lizenznehmer",
+		"location": "Location/Departament",
+		"maxStock": "Maximalbestand",
+		"minStock": "Mindestbestand",
+		"organisation": "Organisation",
+		"parametrized.title": "Station - {{name}}",
+		"radius": "Abstellradius in Meter",
+		"registration": {
+			"title": "Station erstellen",
+			"tooltip": "Neue Station erstellen"
+		},
+		"rentalBusiness": "Rental Business",
+		"senderEmail": "Absender E-Mail Adresse",
+		"stationType": "Typ",
+		"subtitle": {
+			"address": "Adresse",
+			"agency": "Agentur",
+			"financial": "Finanzinformationen",
+			"organisation": "Organisation",
+			"position": "Position"
+		},
+		"targetAddress": "Abhol- / Zustell Adresse Pflicht",
+		"timeZone": "Zeitzone",
+		"title": "Stationen"
+	},
+	"tasks": {
+		"title": "Aufgaben"
+	},
+	"tax": {
+		"createdAt": "Angelegt am",
+		"createdBy": "Angelegt von",
+		"discountLedger": "Sachkonto Abzug",
+		"discountLedgerDescription": "Sachkonto Abzug Bez.",
+		"ledger": "Sachkonto",
+		"ledgerDescription": "Sachkonto Bezeichnung",
+		"parametrized.title": "Steuerschlüssel - {{name}}",
+		"parkingPlace": "Stellplatz",
+		"percentage": "Prozentsatz %",
+		"registration": {
+			"title": "Steuerschlüssel erstellen",
+			"tooltip": "Neuen Steuerschlüssel erstellen"
+		},
+		"stationDescription": "Station Bezeichnung",
+		"subtitle": {
+			"businessData": "Geschäftsdaten",
+			"extCodes": "Externe Schlüssel"
+		},
+		"taxKey": "Steuerschlüssel",
+		"taxType": "Steuerart"
+	},
+	"textModule": {
+		"businessArea": "Geschäftsbereich",
+		"externalTextModuleNo": "Externe Textbausteinnummer",
+		"language": "Sprache",
+		"parametrized.title": "Textbaustein - {{name}}",
+		"registration": {
+			"title": "Textbaustein anlegen",
+			"tooltip": "Einen neuen Textbaustein anlegen"
+		},
+		"section": {
+			"main.data": "Übersicht",
+			"languages": "Sprachen"
+		},
+		"subtitle": {
+			"textModule": "Textbaustein",
+			"languages": "Sprachen"
+		},
+		"text": "Text",
+		"textGroup": "Textbausteingruppe",
+		"textModuleKey": "Textbausteinschlüssel",
+		"title": "Textbaustein"
+	},
+	"telematicsBox": {
+		"title": "Telematikboxen",
+		"parametrized.title": "Telematikboxen - {{name}}",
+		"boxNumber": "Boxnummer",
+		"serialNumber": "Seriennummer",
+		"profile": "Profil",
+		"imei": "IMEI",
+		"imsi": "IMSI",
+		"displayDevice": "Anzeigegerät",
+		"vehicleInstallations": "Fahrzeug Installationen",
+		"registration": {
+			"title": "Telematikboxen anlegen",
+			"tooltip": "Eine neue Telematikbox anlegen"
+		},
+		"subtitle": {
+			"telematicBox": "Telematikbox",
+			"assignedVehicle": "Zugeordnetes Fahrzeug",
+			"locations": "Standorte"
+		},
+		"grid": {
+			"assignationState": "Zuweisungsstatus",
+			"plannedInstallationDate": "Geplantes Installationsdatum",
+			"installationDate": "Installationsdatum",
+			"plannedDisassemblyDate": "Geplantes Demontagedatum",
+			"disassemblyDate": "Demontagedatum",
+			"vehicleNumber": "Fahrzeugnummer",
+			"licensePlate": "Kennzeichen",
+			"timestamp": "Zeitpunkt",
+			"type": "Art"
+		},
+		"validation": {
+			"mandatoryPlannedInstall": "Geplantes Installationsdatum muss angegeben werden",
+			"mandatoryDisassembly": "Datum der Demontage muss angegeben werden",
+			"mandatoryInstallation": "Das Installationsdatum muss angegeben werden",
+			"plannedInstallAfterDisassembly": "Geplantes Installationsdatum muss nach dem Datum der Demontage des aktives Fahrzeugs liegen",
+			"plannedInstallAfterPlannedDisassembly": "Geplantes Installationsdatum muss nach dem geplanten Datum der Demontage des aktiven Fahrzeugs liegen",
+			"installAfterDisassembly": "Installationsdatum muss nach dem Datum der Demontage des aktiven Fahrzeugs liegen",
+			"installAfterPlannedDisassembly": "Installationsdatum muss nach dem Datum der geplanten Demontage des aktiven Fahrzeugs liegen"
+		}
+	},
+	"tmBoxProfile": {
+		"title": "Telematikboxenprofil",
+		"parametrized.title": "Telematikboxenprofil - {{name}}",
+		"registration": {
+			"title": "Telematikboxenprofil anlegen",
+			"tooltip": "Einen neuen Telematikboxenprofil anlegen"
+		},
+		"section": {
+			"tmBoxProfileDataImportType": "Datenmonitortypen"
+		},
+		"subtitle": {
+			"tmBoxProfile": "Telematikboxenprofil",
+			"credentials": "Anmeldedaten",
+			"accessForInternal": "Zugang für intern",
+			"accessForExternal": "Zugang für extern",
+			"dataMonitorType": "Datenmonitprtypen"
+		},
+		"tmBoxProfileType": "Telematikboxenprofilart",
+		"telematicProcessClass": "Prozessklasse",
+		"createdAt": "Erstellt am",
+		"createdBy": "Erstellt durch",
+		"userName": "Benutzername (externer Web Service)",
+		"password": "Passwort (externer Web Service)",
+		"webServiceURL": "Web Service URL",
+		"soapAction": "SOAP Aktion",
+		"systemCode": "Systemcode",
+		"internalWebServiceURL": "Interne Web Service URL",
+		"internalWebServiceUserName": "Benutzername für internen Web Service",
+		"internalWebServicePassword": "Passwort für internen Web Service",
+		"externalWebServiceUserName": "Benutzername für externen Web Service",
+		"externalWebServicePassword": "Passwort für externen Web Service",
+		"dataMonitorType": "Datenmonitortyp",
+		"fixedValue": "Fixer Wert",
+		"descriptionOutput1": "Beschreibung Output 1",
+		"descriptionOutput2": "Beschreibung Output 2",
+		"descriptionOutput3": "Beschreibung Output 3",
+		"descriptionOutput4": "Beschreibung Output 4",
+		"descriptionOutput5": "Beschreibung Output 5",
+		"descriptionOutput6": "Beschreibung Output 6",
+		"descriptionOutput7": "Beschreibung Output 7",
+		"output1": "Output 1",
+		"output2": "Output 2",
+		"output3": "Output 3",
+		"output4": "Output 4",
+		"output5": "Output 5",
+		"output6": "Output 6",
+		"output7": "Output 7"
+	},
+	"variation": {
+		"title": "Varianten",
+		"parametrized.title": "Variante - {{name}}",
+		"subtitle": {
+			"variation": "Variante",
+			"description": "Beschreibung"
+		},
+		"registration": {
+			"title": "Variante erstellen",
+			"tooltip": "Eine neue Variante erstellen"
+		},
+		"description": "Beschreibung",
+		"shortDescription": "Kurzbezeichnung",
+		"manufacturer": "Hersteller",
+		"manufacturerType": "Herstellertyp",
+		"vehicleType": "Fahrzeugart",
+		"vehicleGroup": "Fahrzeuggruppe",
+		"importMapping": "Datenimport Mapping",
+		"feature": {
+			"title": "Eigenschaften",
+			"assigned": "Zugeordnete Eigenschaften",
+			"available": "Eigenschaften",
+			"add": "< Eigenschaften hinzufügen",
+			"remove": "Selektierte entfernen >",
+			"removeAll": "Alle entfernen >>"
+		}
+	},
+	"translations": {
+		"clear": "Übersetzung zurücksetzen",
+		"fallback": "Default",
+		"inline": {
+			"open": "Inline-Übersetzungsdialog öffnen",
+			"title": "Inline-Übersetzung",
+			"toggle": "Inline Übersetzungen aktivieren"
+		},
+		"language": "Sprache",
+		"translation": "Übersetzung"
+	},
+	"users": {
+		"activate": {
+			"confirm": "Sind Sie sicher, dass Sie den ausgewählten Benutzer aktivieren möchten?",
+			"error": "Fehler bei Aktivierung des Benutzers",
+			"success": "Benutzer erfolgreich aktiviert"
+		},
+		"deactivate": {
+			"confirm": "Sind Sie sicher, dass Sie den ausgewählten Mitarbeiter deaktivieren möchten?",
+			"error": "Fehler bei Deaktivierung des Mitarbeiters",
+			"success": "Mitarbeiter erfolgreich deaktiviert"
+		},
+		"exists": {
+			"changeOrSwitch": "Benutzername ändern oder zu bestehendem Mitarbeiter wechseln?",
+			"changeUseer": "Mitarbeiter wechseln",
+			"changeUsername": "Benutzername ändern",
+			"title": "Dieser Mitarbeiter existiert bereits",
+			"username": "Der eingegebene Benutzername ist bereits in der Datenbank hinterlegt"
+		},
+		"grid": {
+			"actions": {
+				"activate": "Benutzer aktivieren",
+				"changePassword": "Passwort ändern",
+				"deactivate": "Benutzer deaktivieren",
+				"resetPassword": "Passwort zurücksetzen"
+			},
+			"language": "Sprache",
+			"lock": "Sperrkennzeichen",
+			"mail": "E-Mail",
+			"phone": "Telefon",
+			"username": "Benutzername",
+			"viewProfile": "Ansicht"
+		},
+		"parametrized.title": "Mitarbeiter - {{name}}",
+		"registration": {
+			"title": "Mitarbeiter anlegen",
+			"tooltip": "Neuen Mitarbeiter anlegen"
+		},
+		"resetPassword": {
+			"confirm": "Sind Sie sicher, dass Sie das Passwort zurücksetzen möchten?",
+			"error": "Fehler beim Zurücksetzen des Passworts",
+			"success": "Passwort erfolgreich zurückgesetzt"
+		},
+		"roles": {
+			"add": "< Ausgewählte Rollen hinzufügen",
+			"assigned": "Zugeordnete Rollen",
+			"available": "Nicht zugeordnete Rollen",
+			"hint": "Rollen suchen...",
+			"remove": "Ausgewählte Rollen entfernen >",
+			"removeAll": "Alle entfernen >>"
+		},
+		"section": {
+			"roles": "Rollen"
+		},
+		"subtitle": {
+			"avatar": "Avatar",
+			"personal": "Persönliche Informationen",
+			"settings": "Eigenschaften"
+		}
+	},
+	"validation": {
+		"message": {
+			"CreditCardNumber": "ungültige Kreditkartennummer",
+			"DateAfterThan": "muss nach oder gleich {{options.relatedValue}} sein",
+			"EAN": "ungültiger Barcode {{type}}",
+			"Email": "ungültige E-Mail-Adresse",
+			"Future": "muss in der Zukunft liegen",
+			"Max": "muss kleiner oder gleich {{maximum}} sein",
+			"Min": "muss größer oder gleich {{minimum}} sein",
+			"NotEmpty": "darf nicht leer sein",
+			"Past": "muss in der Vergangenheit liegen",
+			"Pattern": "muss dem Pattern '{{pattern}}' entsprechen",
+			"Range": "muss zwischen {{minimum}} und {{maximum}} sein",
+			"Size": "Länge muss zwischen {{minLength}} und {{maxLength}} sein",
+			"URL": "muss eine gültige URL sein",
+			"ZipCode": "Ungültige Postleitzahl",
+			"Unique": "muss eindeutig sein"
+		}
+	},
+	"vehicle": {
+		"title": "Fahrzeug",
+		"parametrized.title": "Fahrzeug - {{name}}",
+		"vehicleOptions": "Fahrzeugoptionen",
+		"registration": {
+			"title": "Fahrzeug anlegen",
+			"tooltip": "Neuen Fahrzeug anlegen"
+		},
+		"vehicleData1": "Fahrzeugdaten 1",
+		"vehicleData2": "Fahrzeugdaten 2",
+		"generalInformation1": "General Information 1",
+		"generalInformation2": "General Information 2",
+		"furtherData1": "Weitere Daten 1",
+		"furtherData2": "Weitere Daten 2",
+		"technicalData1": "Technische Daten 1",
+		"technicalData2": "Technische Daten 2",
+		"variation": "Variante",
+		"equipment": "Ausstattung",
+		"vehicleNumber": "Fahrzeugnummer",
+		"registrationNumber": "Kennzeichen",
+		"vehicleState": "Fahrzeugstatus",
+		"rentObjectTypeId": "Fahrzeugtyp Nr.",
+		"psGrid": "Leistung (kW)",
+		"tankCapacityGrid": "Tankkapazität (l)",
+		"kilometerMaxGrid": "Maximale Fahrleistung (km)",
+		"planedStartAvailability": "Plandatum",
+		"ownRentObj": "Eigennutzung",
+		"CRS1": "Computer-Reservierungssystem 1",
+		"CRS2": "Computer-Reservierungssystem 2",
+		"CRS3": "Computer-Reservierungssystem 3",
+		"CRS4": "Computer-Reservierungssystem 4",
+		"classificationDescription1": "Klassifikation 1",
+		"classificationDescription2": "Klassifikation 2",
+		"classificationDescription3": "Klassifikation 3",
+		"classificationDescription4": "Klassifikation 4",
+		"classificationDescription5": "Klassifikation 5",
+		"classificationDescription6": "Klassifikation 6",
+		"chassisNumber": "Fahrgestellnummer",
+		"carDocumentNumber": "Fahrzeugbrief",
+		"carKeyNo": "Schlüsselnummer",
+		"radioCode": "Radiocode",
+		"firstLicense": "Erstzulassung",
+		"realFirstLicense": "Tatsächliche Zulassung",
+		"pdiDate": "Inspektion vor Auslieferung",
+		"majorRevision": "Hauptuntersuchung",
+		"brakeSpecInvest": "Bremsensonderuntersuchung",
+		"operatingLife": "Haltedauer",
+		"minDriverLicence": "Führerschein seit",
+		"minDriverAge": "Mindestfahralter",
+		"licenseActive": "Aktive Lizenz",
+		"salesType": "Vermarktungsart",
+		"owner": "Eigentümer",
+		"rentContractNote": "Hinweistext Mietvertrag",
+		"ledgerId": "Umsatzkonto",
+		"costCarrierId": "Kostenträger",
+		"power": "Leistung",
+		"powerPS": "Leistung (PS)",
+		"cubicCapacity": "Hubraum",
+		"payLoad": "Zulässiges Gesamtgewicht",
+		"kilometerMax": "Maximale Fahrleistung",
+		"rfid": "RFID Fahrzeugschlüssel",
+		"hasRFIDReader": "RFID Kartenleser"
+	},
+	"viewProfile": {
+		"backOffice": "Back Office",
+		"fleetManager": "Flottenmanager",
+		"frontOffice": "Front Office",
+		"infoDialog": {
+			"message": "Datengruppe \"{{datagroup}}\" kann nicht deaktiviert werden, da folgende Pflichtfelder enthalten sind:",
+			"title": "Benötigte Felder"
+		},
+		"save": {
+			"error": "Fehler beim Speichern der Ansicht",
+			"success": "Ansicht gespeichert"
+		}
+	},
+	"workspaceManager": {
+		"activate": "Wechseln auf vorhandene Seite",
+		"open": "Öffnen einer neuen Seite"
+	}
+}
